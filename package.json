@@ -1,5 +1,5 @@
 {
-  "name": "temp",
+  "name": "nfttemplatevideo",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,8 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^18",
-    "react-dom": "^18",
-    "next": "14.0.3"
+    "@openzeppelin/contracts": "^5.0.0",
+    "axios": "^1.6.2",
+    "ether": "^0.0.9",
+    "framer-motion": "^7.2.1",
+    "ipfs-http-client": "^60.0.1",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-icons": "^4.12.0",
+    "web3modal": "^1.9.12"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2"
   }
 }
